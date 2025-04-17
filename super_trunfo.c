@@ -46,7 +46,7 @@ int main(){
     //Cálculo de Densidade Populacional e de PIB Per Capita.  Carta 1
     float Densidade_Populacional =   Populacao1 / Area1;
     float PIB1_perCapita =  PIB1 / Populacao1;
-    float Super_Poder1 = (float) Populacao1 + Area1 + PIB1 + pontos_turisticos1 + PIB1_perCapita + Densidade_Populacional;
+    float Super_Poder1 = (int) Populacao1 + Area1 + PIB1 + pontos_turisticos1 + PIB1_perCapita + Densidade_Populacional;
 
     //Saída de Dados da Carta 1
     printf("Carta1: \n");
@@ -86,7 +86,7 @@ int main(){
     //Cálculo de Densidade Populacional e de PIB Per Capita.  Carta 1
     float Densidade_Populacional2 = (float) Populacao2 / Area2;
     float PIB2_perCapita = (float) PIB2 / Populacao2;
-    float Super_Poder2 = (float) Populacao2 + Area2 + PIB2 + pontos_turisticos2 + PIB2_perCapita + Densidade_Populacional2;
+    float Super_Poder2 = (int) Populacao2 + Area2 + PIB2 + pontos_turisticos2 + PIB2_perCapita + Densidade_Populacional2;
 
     //Saída de Dados da Carta 2
     printf("Carta2: \n");
@@ -99,6 +99,14 @@ int main(){
     printf("Pontos Turisticos: %i\n", pontos_turisticos2);
     printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional2);
     printf("PIB per Capita: R$%.2f\n", PIB2_perCapita);
+
+    /*printf("***COMPARAÇÃO DE CARTAS***");
+    printf("População: %lu\n", (Populacao1) > (Populacao2));
+    printf("Área: %f\n", (Area1) > (Area2));
+    printf("Pontos Turísticos: %i\n", (pontos_turisticos1) > (pontos_turisticos2));
+    printf("Densidade Populacional: %d\n" (Densidade_Populacional) < (Densidade_Populacional2));
+    printf("PIB per Capita: %f\n", (PIB1_perCapita) > (PIB2_perCapita));
+    printf("Super poder:");*/
 
     //int resultado = Super_Poder1 > Super_Poder2;
     return 0;
