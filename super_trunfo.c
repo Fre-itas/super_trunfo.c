@@ -100,13 +100,13 @@ int main(){
     printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional2);
     printf("PIB per Capita: R$%.2f\n", PIB2_perCapita);
 
-    /*printf("***COMPARAÇÃO DE CARTAS***");
-    printf("População: %lu\n", (Populacao1) > (Populacao2));
-    printf("Área: %f\n", (Area1) > (Area2));
+    printf("***COMPARAÇÃO DE CARTAS***\n");
+    printf("População: %d\n", (Populacao1) > (Populacao2));
+    printf("Área: %d\n", (Area1) > (Area2));
     printf("Pontos Turísticos: %i\n", (pontos_turisticos1) > (pontos_turisticos2));
-    printf("Densidade Populacional: %d\n" (Densidade_Populacional) < (Densidade_Populacional2));
-    printf("PIB per Capita: %f\n", (PIB1_perCapita) > (PIB2_perCapita));
-    printf("Super poder:");*/
+    printf("Densidade Populacional: %d\n",(Densidade_Populacional < Densidade_Populacional2));
+    printf("PIB per Capita: %d\n", (PIB1_perCapita) > (PIB2_perCapita));
+    printf("Super poder: %d\n", (Super_Poder1 > Super_Poder2));
 
     //int resultado = Super_Poder1 > Super_Poder2;
     return 0;
