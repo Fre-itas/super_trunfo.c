@@ -108,6 +108,6 @@ int main(){
     printf("PIB per Capita: %d\n", (PIB1_perCapita) > (PIB2_perCapita));
     printf("Super poder: %d\n", (Super_Poder1 > Super_Poder2));
 
-    //int resultado = Super_Poder1 > Super_Poder2;
+    
     return 0;
 }
